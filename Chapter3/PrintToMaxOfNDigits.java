@@ -22,7 +22,7 @@ public class PrintToMaxOfNDigits {
         }
     }
 
-    public void PrintToMaxOfNDigits(int n){
+    public void printToMaxOfNDigits(int n){
         if (n <= 0) return;
         char[] num = new char[n];
         for (int i = 0; i < 10; i++){
@@ -32,6 +32,6 @@ public class PrintToMaxOfNDigits {
     }
 
     public static void main(String[] args){
-        new PrintToMaxOfNDigits().PrintToMaxOfNDigits(2);
+        new PrintToMaxOfNDigits().printToMaxOfNDigits(2);
     }
 }
